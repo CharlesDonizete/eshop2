@@ -1,3 +1,4 @@
+import { ProductListComponent } from './../components/product-list/product-list.component';
 import { NavbarComponent } from './../components/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -9,6 +10,6 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
-  declarations: [HomePage, NavbarComponent],
+  declarations: [HomePage, NavbarComponent, ProductListComponent],
 })
 export class HomePageModule {}
