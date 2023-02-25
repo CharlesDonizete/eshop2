@@ -1,3 +1,4 @@
+import { ShoppingCartComponent } from './../components/shopping-cart/shopping-cart.component';
 import { ProductListComponent } from './../components/product-list/product-list.component';
 import { NavbarComponent } from './../components/navbar/navbar.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +11,11 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
-  declarations: [HomePage, NavbarComponent, ProductListComponent],
+  declarations: [
+    HomePage,
+    NavbarComponent,
+    ProductListComponent,
+    ShoppingCartComponent,
+  ],
 })
 export class HomePageModule {}
